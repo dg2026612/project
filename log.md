@@ -23,7 +23,16 @@
 # 6일차-코딩 중반 끝
 ###  6일차에는 팔,다리를 다 만들고 스페이스바를 누르면 색깔이 무작위로 변하는것을 만드는중이다.
 #### 코드설명:네모를 만들고 색깔을 입힌다음 위치를 자연스럽게 조정해 팔을 만들고 타원형을 하나 만든 다음 커비 발색깔에 맞게 입힌다음 위치와 생김새를 조정해 표현하였다.
-###### 6차에 만든 코딩 
-######
-######
-######
+###### 6차에 만든 코딩 *arm1 = box(pos=vec(160, -50, 0),size=vec(200,200,250), color=vec(247/255,218/255,234/255),  axis=vec(0.5,0.2,0))*
+###### *arm2 = box(pos=vec(-160, -50, 0),size=vec(200,200,250), color=vec(247/255,218/255,234/255),  axis=vec(0.2,0.5,0))*
+
+###### *leg1 = ellipsoid(pos=vec(130, -240, 100), length=200, height=140, width=300, color=vec(204/255,70/255,104/255),axis=vec(0.5,-0.1,-0.2))*
+###### *leg2 = ellipsoid(pos=vec(-130, -240, 100), length=200, height=140, width=300, color=vec(204/255,70/255,104/255),axis=vec(0.5,0.1,0.2))*
+
+###### *kirby = compound( [body,arm1, arm2, leg1, leg2 ] )*
+###### *import random*
+###### *while True :* 
+######    *rate(100)*
+######  *k = keysdown()*
+######    *if ' 'in k:*
+######        *kirby.color = vec(random.random(),random.uniform(0.9,1),random.random())*

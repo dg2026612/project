@@ -38,5 +38,11 @@
 ######        *kirby.color = vec(random.random(),random.uniform(0.9,1),random.random())*
 # 7일차-코딩 끝
 ###  7일차에는 몸 색깔이 변하고 움직이는것
-#### 코드설명:
-###### 7차에 만든 코딩
+#### 코드설명:랜덤 값을 넣어 몸이 움직이게 하고 랜덤값으로 색깔이 변하게 하였다
+###### 7차에 만든 코딩    *dx = random.uniform(-1, 1)*
+######        *dy = random.uniform(-1, 1)*
+######     *kirby.pos.x = kirby.pos.x + dx*
+######        *kirby.pos.y = kirby.pos.y + dy*
+######        *kirby.color = vec(random.random(),random.random(),random.random())*
+######        *eye.pos.x = eye.pos.x + dx*
+######        *eye.pos.y = eye.pos.y + dy*

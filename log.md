@@ -36,3 +36,7 @@
 ######  *k = keysdown()*
 ######    *if ' 'in k:*
 ######        *kirby.color = vec(random.random(),random.uniform(0.9,1),random.random())*
+# 7일차-코딩 끝
+###  7일차에는 몸 색깔이 변하고 움직이는것
+#### 코드설명:
+###### 7차에 만든 코딩

@@ -25,7 +25,7 @@ eye = compound( [right, left] )
 import random
 
 while True : 
-    # mitae code is 1cho e 100beon
+
     rate(100)
     k = keysdown()
     if ' 'in k:

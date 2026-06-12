@@ -46,3 +46,5 @@
 ######        *kirby.color = vec(random.random(),random.random(),random.random())*
 ######        *eye.pos.x = eye.pos.x + dx*
 ######        *eye.pos.y = eye.pos.y + dy*
+
+https://www.glowscript.org/#/user/ohohohhhhh/folder/MyPrograms/program/%EA%B9%83%ED%97%88%EB%B8%8C/edit
